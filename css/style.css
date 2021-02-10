@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nerko One", Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+}
+
+.container {
+    
+    width: 65%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.row {
+text-align: center;
+
+}
+
+.card {
+    height: 200px;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    
+    /*test*/
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+
+/*footer*/
+footer {
+    text-align: center;
+}

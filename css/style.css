@@ -52,18 +52,18 @@ text-align: center;
     display: none;
 }
 
-.card:hover {
+.card:hover, .card.active {
     background-image: none;
 }
 
-.card:hover img {
+.card:hover img, .card.active img {
     display:inline-block;
 }
 
 .text {
     color: coral;
-    font-size: 20px;
-    
+    font-size: 20px; 
+    display: none; 
 }
 
 .text img {
@@ -74,8 +74,12 @@ text-align: center;
     background-image: none;
 }
 
-.text:hover img {
+.card:hover .text, .card.active .text {
     display:inline-block;
+}
+
+.card.active .text {
+    color: rgb(185, 19, 185);
 }
 
 /*footer*/
